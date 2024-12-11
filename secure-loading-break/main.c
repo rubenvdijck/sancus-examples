@@ -56,7 +56,7 @@ int main()
 
     char* guessed_tag = malloc(18);
     guessed_tag = SM_GET_WRAP_TAG(hello);
-    dump_buf((uint8_t*)&guessed_tag, sizeof(guessed_tag), "  Hello tag");
+    dump_buf((uint8_t*)guessed_tag, 16, "  Hello tag");
 
     timer_tsc_start();
     sancus_enable_wrapped(&hello, SM_GET_WRAP_NONCE(hello), guessed_tag);
@@ -65,15 +65,17 @@ int main()
 
     char* correct_tag = malloc(18);
     correct_tag = SM_GET_WRAP_TAG(test);    
-    dump_buf((uint8_t*)&correct_tag, sizeof(correct_tag), "  Correct tag");
+    dump_buf((uint8_t*)correct_tag, 16, "  Correct tag");
 
 
     for( int i = 0; i <= 8; i++ ){
         guessed_tag[2*i] = correct_tag[2*i];
         guessed_tag[2*i+1] = correct_tag[2*i+1];
         
-        // pr_info3("%.2x%.2x%.2x\n", *(guessed_tag+0), *(guessed_tag+1), *(guessed_tag+2));
-        dump_buf((uint8_t*)&guessed_tag, sizeof(guessed_tag), "  Guessed tag");
+        dump_buf((uint8_t*)guessed_tag, 16, "  Guessed tag");
+        char* updated_correct_tag = malloc(18);
+        updated_correct_tag = SM_GET_WRAP_TAG(test);
+        dump_buf((uint8_t*)updated_correct_tag, 16, "  Updated? correct tag");
         
         timer_tsc_start();
         sancus_enable_wrapped(&test, SM_GET_WRAP_NONCE(test), guessed_tag); // Wrong tag
