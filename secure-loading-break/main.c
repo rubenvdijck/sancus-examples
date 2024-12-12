@@ -89,7 +89,7 @@ int main()
     pr_info2("Time to verify if correct tag: %u, tsc overhead: %u\n", tsc2, tsc1);
 
     pr_sm_info(&hello);
-
+    exit_success();
 }
 
 void exit_success(void)
