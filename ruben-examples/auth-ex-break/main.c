@@ -4,6 +4,9 @@
 #include <sancus_support/sm_io.h>
 #include <sancus_support/timer.h>
 #include <sancus_support/tsc.h>
+#include <sancus/reactive.h>
+#include <sancus_support/sm_control.h>
+#include <sancus_support/global_symtab.h>
 
 typedef tsc_t secret_data_t;
 
@@ -21,99 +24,71 @@ void exit_success(void);
 
 DECLARE_SM(hello, 0x1234);
 
-void SM_ENTRY(hello) hello_wrap(tsc_t* data, nonce_t ad, CipherData* cipher)
+SM_OUTPUT(hello, output);
+
+SM_INPUT(hello, super_secure_ecall, data, len)
 {
-    sancus_wrap(&ad, sizeof(ad), data, sizeof(*data),
-                       &cipher->cipher, &cipher->tag);
+    pr_info("should never see this!");
 }
 
-int SM_ENTRY(hello) super_secure_ecall(nonce_t ad, CipherData* cipher)
-{
-    tsc_t cmd;
-    if (sancus_unwrap(&ad, sizeof(ad), &cipher->cipher, sizeof(cipher->cipher), &cipher->tag, &cmd))
-    {
-        pr_info1("Data successfully unwrapped! cmd = %u\n", cmd);
-        if (cmd !=0)
-        {
-            pr_info("should never see this!");
-        }
-    }
-    return 0;
-}
 
 /* ======== UNTRUSTED CONTEXT ======== */
+
+void reactive_handle_output(uint16_t conn_id, void* data, size_t len) {
+    uint16_t args[] = {0, (uint16_t)data, (uint16_t)len};
+    uint16_t retval = 0;
+    uint16_t id = 0;
+    sm_call_module(&hello, 0x3, args, 3, &retval);
+}
 
 int main()
 {
     msp430_io_init();
-
-    // sancus_enable(&attacker);
-    // pr_sm_info(&attacker);
     sancus_enable(&hello);
-    pr_sm_info(&hello);
 
-    nonce_t no = 0xabcd;
     uint tsc1, tsc2;
     timer_tsc_start();
     tsc1 = timer_tsc_end();
     pr_info1("tsc overhead: %u\n", tsc1);
-    // tsc_t data = 0x5678;
-    // CipherData correct_cipher = { 0 };
-    // hello_wrap(&data, no, &correct_cipher);
-    // char* correct_tag = correct_cipher.tag;
-    // dump_buf((uint8_t*)correct_tag, 16, "  Correct tag");
-    // dump_buf((uint8_t*)correct_cipher.cipher, 8, "  Correct cipher");
     
-    // CipherData cipher = { .cipher = *correct_cipher.cipher,
-    //                     .tag = "\xe7\x1c\x2f\x8e\x29\xba\x6f\xfc\xd0\x36\x94\x83\xb2\x77\xb2\x9c" };
-
-    // for( int i = 0; i < 8; i++ ){
-    //     cipher.cipher[i] = correct_cipher.cipher[i];
-    // }
-
-    // dump_buf((uint8_t*)cipher.cipher, 8, "  Copy correct cipher");
-
-
-    // for( int i = 0; i < 8; i++ ){
-    //     cipher.tag[2*i] = correct_tag[2*i];
-    //     cipher.tag[2*i+1] = correct_tag[2*i+1];
-        
-    //     timer_tsc_start();
-    //     super_secure_ecall(no, &cipher);
-    //     tsc2 = timer_tsc_end();
-    //     pr_info3("Time to verify if only %d/8 bytes correct: %u, tsc overhead: %u\n", i+1, tsc2, tsc1);
-    // }
+    CipherData cipher = { .cipher = "\x78\x56\x78\x56\x78\x56\x78\x56",
+                        .tag = "\xe7\x1c\x2f\x8e\x29\xba\x6f\xfc\xd0\x36\x94\x83\xb2\x77\xb2\x9c" };
+    size_t len = sizeof(CipherData);
+    timer_tsc_start();
+    // __sm_hello_handle_input(1, &cipher, len);
+    tsc2 = timer_tsc_end();
+    pr_info2("Time to verify: %u, tsc overhead: %u\n", tsc2, tsc1);
 
     // ======== WITHOUT INFO ==========
 
-    CipherData cipher_guess = { .cipher = "\x78\x56\x78\x56\x78\x56\x78\x56",
-                        .tag = "\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00" };
+    // CipherData cipher_guess = { .cipher = "\x78\x56\x78\x56\x78\x56\x78\x56",
+    //                     .tag = "\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00" };
 
-    // SANCUS_SECURITY=128
-    for ( int e = 0; e < 8; e++ ){
-        for( int i = 0; i < 256; i++ ){
-            cipher_guess.tag[2*e] = i;
-            for( int j = 0; j < 256; j++ ){
-                cipher_guess.tag[2*e+1] = j;
+    // // SANCUS_SECURITY=128
+    // for ( int e = 0; e < 8; e++ ){
+    //     for( int i = 0; i < 256; i++ ){
+    //         cipher_guess.tag[2*e] = i;
+    //         for( int j = 0; j < 256; j++ ){
+    //             cipher_guess.tag[2*e+1] = j;
                 
-                timer_tsc_start();
-                super_secure_ecall(no, &cipher_guess);
-                tsc2 = timer_tsc_end();
-                if( tsc2 > 2553 + e*173 ){
-                    dump_buf((uint8_t*)cipher_guess.tag, 16, "  Guessed tag");
-                    pr_info1("Time to verify guess: %u\n", tsc2);
-                    break;
-                }
-            }
-            pr_info1("Finished %d/256\n", i+1);
-            if( tsc2 > 2553 + e*173 ){
-                dump_buf((uint8_t*)cipher_guess.tag, 16, "  Guessed tag");
-                pr_info1("Time to verify guess: %u\n", tsc2);
-                break;
-            }
-        }
-        pr_info1("Finished %d/8\n", e+1);
-    }
+    //             timer_tsc_start();
+    //             super_secure_ecall(no, &cipher_guess);
+    //             tsc2 = timer_tsc_end();
+    //             if( tsc2 > 2553 + e*173 ){
+    //                 dump_buf((uint8_t*)cipher_guess.tag, 16, "  Guessed tag");
+    //                 pr_info1("Time to verify guess: %u\n", tsc2);
+    //                 break;
+    //             }
+    //         }
+    //         pr_info1("Finished %d/256\n", i+1);
+    //         if( tsc2 > 2553 + e*173 ){
+    //             dump_buf((uint8_t*)cipher_guess.tag, 16, "  Guessed tag");
+    //             pr_info1("Time to verify guess: %u\n", tsc2);
+    //             break;
+    //         }
+    //     }
+    //     pr_info1("Finished %d/8\n", e+1);
+    // }
 
     exit_success();
 }

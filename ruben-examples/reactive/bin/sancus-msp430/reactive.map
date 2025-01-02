@@ -1,0 +1,1607 @@
+Archive member included because of file (symbol)
+
+/usr/local/share/sancus-support/lib/libsm-control.a(sm_control.c.o)
+                              /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/enclave_utils.o (sm_load)
+/usr/local/share/sancus-support/lib/libloader.a(elf.c.o)
+                              /usr/local/share/sancus-support/lib/libsm-control.a(sm_control.c.o) (elf_load)
+/usr/local/share/sancus-support/lib/libloader.a(pmem.c.o)
+                              /usr/local/share/sancus-support/lib/libloader.a(elf.c.o) (pmem_malloc)
+/usr/local/share/sancus-support/lib/libloader.a(global_symtab.c.o)
+                              /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/enclave_utils.o (symtab_get_num_symbols)
+/usr/local/share/sancus-support/lib/libtools.a(tools.c.o)
+                              /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/command_handlers.o (create_parse_state)
+/usr/local/share/sancus-support/lib/libsm-io.a(sm_io.c.o)
+                              /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/startup.o (putchar)
+/usr/local/share/sancus-compiler/lib/libsancus-sm-support.a(sm_support.c.o)
+                              /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/sancus_helpers.o (sancus_enable)
+/usr/local/share/sancus-compiler/lib/libsancus-host-support.a(unprotected_entry.s.o)
+                              /usr/local/share/sancus-support/lib/libsm-control.a(sm_control.c.o) (__unprotected_sp)
+/usr/lib/gcc/msp430/4.6.3/libgcc.a(_mulhi3.o)
+                              /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/event_manager.o (__mulhi3)
+/usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod16.o)
+                              /usr/local/share/sancus-support/lib/libloader.a(elf.c.o) (__umodhi3)
+/usr/lib/gcc/msp430/4.6.3/libgcc.a(_divmod16.o)
+                              /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/rtc.o (__modhi3)
+/usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod32.o)
+                              /usr/local/share/sancus-support/lib/libloader.a(elf.c.o) (__udivsi3)
+/usr/msp430/lib/libc.a(memchr.o)
+                              /usr/local/share/sancus-support/lib/libtools.a(tools.c.o) (memchr)
+/usr/msp430/lib/libc.a(strncmp.o)
+                              /usr/local/share/sancus-support/lib/libloader.a(global_symtab.c.o) (strncmp)
+/usr/msp430/lib/libc.a(memcmp.o)
+                              /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/atomic_c11.o (memcmp)
+/usr/msp430/lib/libc.a(strcpy.o)
+                              /usr/local/share/sancus-support/lib/libtools.a(tools.c.o) (strcpy)
+/usr/msp430/lib/libc.a(memcpy.o)
+                              /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/enclave_utils.o (memcpy)
+/usr/msp430/lib/libc.a(strdup.o)
+                              /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/enclave_utils.o (strdup)
+/usr/msp430/lib/libc.a(memset.o)
+                              /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/malloc.o (memset)
+/usr/msp430/lib/libc.a(strlen.o)
+                              /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/enclave_utils.o (strlen)
+/usr/msp430/lib/libc.a(strcat.o)
+                              /usr/local/share/sancus-support/lib/libsm-control.a(sm_control.c.o) (strcat)
+/usr/msp430/lib/libc.a(printf.o)
+                              /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/static-symtab.o (printf)
+/usr/msp430/lib/libc.a(sprintf.o)
+                              /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/enclave_utils.o (snprintf)
+/usr/msp430/lib/libc.a(vuprintf.o)
+                              /usr/local/share/sancus-support/lib/libtools.a(tools.c.o) (vuprintf)
+/usr/msp430/lib/libc.a(puts.o)
+                              /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/static-symtab.o (puts)
+/usr/msp430/lib/libc.a(div.o)
+                              /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/rtc.o (div)
+/usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod64.o)
+                              /usr/msp430/lib/libc.a(vuprintf.o) (__udivdi3)
+/usr/lib/gcc/msp430/4.6.3/libcrt0.a(_reset_vector__.o)
+                              /usr/lib/gcc/msp430/4.6.3/crt0ivtbl16.o (_reset_vector__)
+/usr/lib/gcc/msp430/4.6.3/libcrt0.a(__watchdog_support.o)
+                              /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_reset_vector__.o) (__watchdog_support)
+/usr/lib/gcc/msp430/4.6.3/libcrt0.a(__init_stack.o)
+                              /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_reset_vector__.o) (__init_stack)
+/usr/lib/gcc/msp430/4.6.3/libcrt0.a(__low_level_init.o)
+                              /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_reset_vector__.o) (__low_level_init)
+/usr/lib/gcc/msp430/4.6.3/libcrt0.a(_copy_data.o)
+                              /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_reset_vector__.o) (__do_copy_data)
+/usr/lib/gcc/msp430/4.6.3/libcrt0.a(_clear_bss.o)
+                              /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_reset_vector__.o) (__do_clear_bss)
+/usr/lib/gcc/msp430/4.6.3/libcrt0.a(__stop_progExec__.o)
+                              /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/static-symtab.o (__stop_progExec__)
+/usr/lib/gcc/msp430/4.6.3/libcrt0.a(_endless_loop__.o)
+                              /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_reset_vector__.o) (_endless_loop__)
+/usr/lib/gcc/msp430/4.6.3/libcrt0.a(_unexpected_.o)
+                              /usr/lib/gcc/msp430/4.6.3/crt0ivtbl16.o (_unexpected_)
+/usr/lib/gcc/msp430/4.6.3/libcrt0.a(_ctors430.o)
+                              /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/startup.o (__do_global_ctors)
+
+Discarded input sections
+
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/crt0ivtbl16.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/crt0ivtbl16.o
+ .text.crt0     0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/crt0ivtbl16.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/startup.o
+ .bss           0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/startup.o
+ .text          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/pmodbtn.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/pmodbtn.o
+ .bss           0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/pmodbtn.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/connection.o
+ .text          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/static-symtab.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/static-symtab.o
+ .bss           0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/static-symtab.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/command_handlers.o
+ .bss           0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/command_handlers.o
+ .text          0x0000000000000000      0x264 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/periodic_event.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/periodic_event.o
+ .bss           0x0000000000000000        0x4 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/periodic_event.o
+ .text          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/led_driver.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/led_driver.o
+ .bss           0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/led_driver.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/main.o
+ .bss           0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/enclave_utils.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/networking.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/event_manager.o
+ .bss           0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/event_manager.o
+ .text          0x0000000000000000      0x234 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/event_generator.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/event_generator.o
+ .bss           0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/event_generator.o
+ .text          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/pmodled.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/pmodled.o
+ .bss           0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/pmodled.o
+ .text          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/button_driver.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/button_driver.o
+ .bss           0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/button_driver.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/led_insecure.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/uart_reader.o
+ .bss           0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/uart_reader.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/utils.o
+ .bss           0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/utils.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/auto_init/auto_init.o
+ .bss           0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/auto_init/auto_init.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/board/board_init.o
+ .bss           0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/board/board_init.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/board/uart.o
+ .text          0x0000000000000000       0x60 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/panic.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/panic.o
+ .bss           0x0000000000000000        0x2 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/panic.o
+ .rodata        0x0000000000000000       0x12 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/panic.o
+ .text          0x0000000000000000       0xf8 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/bitarithm.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/bitarithm.o
+ .bss           0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/bitarithm.o
+ .rodata        0x0000000000000000       0x20 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/bitarithm.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/sched.o
+ .openocd       0x0000000000000000        0x1 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/sched.o
+ .text          0x0000000000000000     0x24fc /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/atomic_c11.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/atomic_c11.o
+ .bss           0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/atomic_c11.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/mutex.o
+ .bss           0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/mutex.o
+ .text          0x0000000000000000      0x118 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/lifo.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/lifo.o
+ .bss           0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/lifo.o
+ .text          0x0000000000000000      0x1f0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/cond.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/cond.o
+ .bss           0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/cond.o
+ .text          0x0000000000000000      0x1ac /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/rmutex.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/rmutex.o
+ .bss           0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/rmutex.o
+ .text          0x0000000000000000      0x4e4 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/ringbuffer.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/ringbuffer.o
+ .bss           0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/ringbuffer.o
+ .text          0x0000000000000000      0x298 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/clist.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/clist.o
+ .bss           0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/clist.o
+ .text          0x0000000000000000      0x174 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/priority_queue.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/priority_queue.o
+ .bss           0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/priority_queue.o
+ .text          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/atomic_sync.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/atomic_sync.o
+ .bss           0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/atomic_sync.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/thread.o
+ .bss           0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/thread.o
+ .text          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/assert.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/assert.o
+ .bss           0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/assert.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/msg.o
+ .bss           0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/msg.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/irq.o
+ .text          0x0000000000000000       0x80 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/msp430_stdio.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/msp430_stdio.o
+ .bss           0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/msp430_stdio.o
+ .text          0x0000000000000000       0x2c /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/sancus_helpers.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/sancus_helpers.o
+ .bss           0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/sancus_helpers.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/cpu.o
+ .bss           0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/cpu.o
+ .text          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/mspgcc-supplement.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/mspgcc-supplement.o
+ .bss           0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/mspgcc-supplement.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/startup.o
+ .bss           0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/startup.o
+ .text          0x0000000000000000      0x16c /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/oneway_malloc/oneway-malloc.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/oneway_malloc/oneway-malloc.o
+ .bss           0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/oneway_malloc/oneway-malloc.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/stdio_uart/stdio_uart.o
+ .bss           0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/stdio_uart/stdio_uart.o
+ .text          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/gpio_util.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/gpio_util.o
+ .bss           0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/gpio_util.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/init.o
+ .bss           0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/init.o
+ .text          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/flashpage.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/flashpage.o
+ .bss           0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/flashpage.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/pm.o
+ .bss           0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/pm.o
+ .text          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/i2c.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/i2c.o
+ .bss           0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/i2c.o
+ .text          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/cpuid.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/cpuid.o
+ .bss           0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/cpuid.o
+ .text          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/spi.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/spi.o
+ .bss           0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/spi.o
+ .text          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/eeprom.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/eeprom.o
+ .bss           0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/eeprom.o
+ .text          0x0000000000000000      0x3a8 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/rtc.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/rtc.o
+ .bss           0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/rtc.o
+ .text          0x0000000000000000       0x68 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/timer.o
+ .data          0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/timer.o
+ .bss           0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/timer.o
+ .text          0x0000000000000000        0x0 /usr/local/share/sancus-support/lib/libsm-control.a(sm_control.c.o)
+ .data          0x0000000000000000        0x0 /usr/local/share/sancus-support/lib/libsm-control.a(sm_control.c.o)
+ .text.sm_register_existing
+                0x0000000000000000       0x7a /usr/local/share/sancus-support/lib/libsm-control.a(sm_control.c.o)
+ .text          0x0000000000000000        0x0 /usr/local/share/sancus-support/lib/libloader.a(elf.c.o)
+ .bss           0x0000000000000000        0x0 /usr/local/share/sancus-support/lib/libloader.a(elf.c.o)
+ .text          0x0000000000000000        0x0 /usr/local/share/sancus-support/lib/libloader.a(pmem.c.o)
+ .bss           0x0000000000000000        0x0 /usr/local/share/sancus-support/lib/libloader.a(pmem.c.o)
+ .text          0x0000000000000000        0x0 /usr/local/share/sancus-support/lib/libloader.a(global_symtab.c.o)
+ .data          0x0000000000000000        0x0 /usr/local/share/sancus-support/lib/libloader.a(global_symtab.c.o)
+ .text          0x0000000000000000        0x0 /usr/local/share/sancus-support/lib/libtools.a(tools.c.o)
+ .data          0x0000000000000000        0x0 /usr/local/share/sancus-support/lib/libtools.a(tools.c.o)
+ .bss           0x0000000000000000       0x44 /usr/local/share/sancus-support/lib/libtools.a(tools.c.o)
+ .text.read_int
+                0x0000000000000000       0x2c /usr/local/share/sancus-support/lib/libtools.a(tools.c.o)
+ .text.write_int
+                0x0000000000000000       0x2a /usr/local/share/sancus-support/lib/libtools.a(tools.c.o)
+ .text.write_pointer
+                0x0000000000000000       0x1a /usr/local/share/sancus-support/lib/libtools.a(tools.c.o)
+ .text.read_string
+                0x0000000000000000       0x8a /usr/local/share/sancus-support/lib/libtools.a(tools.c.o)
+ .rodata        0x0000000000000000        0x6 /usr/local/share/sancus-support/lib/libtools.a(tools.c.o)
+ .text.print_data
+                0x0000000000000000       0x74 /usr/local/share/sancus-support/lib/libtools.a(tools.c.o)
+ .text.uart_putchar
+                0x0000000000000000       0x20 /usr/local/share/sancus-support/lib/libtools.a(tools.c.o)
+ .text.uart_printf
+                0x0000000000000000       0x34 /usr/local/share/sancus-support/lib/libtools.a(tools.c.o)
+ .text.cb_printf_init
+                0x0000000000000000       0x22 /usr/local/share/sancus-support/lib/libtools.a(tools.c.o)
+ .text.cb_printf_finish
+                0x0000000000000000       0x2a /usr/local/share/sancus-support/lib/libtools.a(tools.c.o)
+ .text.buf_putchar
+                0x0000000000000000       0x46 /usr/local/share/sancus-support/lib/libtools.a(tools.c.o)
+ .text.cb_printf
+                0x0000000000000000       0x34 /usr/local/share/sancus-support/lib/libtools.a(tools.c.o)
+ .text          0x0000000000000000        0x0 /usr/local/share/sancus-support/lib/libsm-io.a(sm_io.c.o)
+ .data          0x0000000000000000        0x0 /usr/local/share/sancus-support/lib/libsm-io.a(sm_io.c.o)
+ .bss           0x0000000000000000        0x0 /usr/local/share/sancus-support/lib/libsm-io.a(sm_io.c.o)
+ .text.msp430_io_init
+                0x0000000000000000       0x1c /usr/local/share/sancus-support/lib/libsm-io.a(sm_io.c.o)
+ .text.pr_sm_info
+                0x0000000000000000       0xac /usr/local/share/sancus-support/lib/libsm-io.a(sm_io.c.o)
+ .text.printf0  0x0000000000000000       0x20 /usr/local/share/sancus-support/lib/libsm-io.a(sm_io.c.o)
+ .text.printf1  0x0000000000000000       0x24 /usr/local/share/sancus-support/lib/libsm-io.a(sm_io.c.o)
+ .text.printf2  0x0000000000000000       0x32 /usr/local/share/sancus-support/lib/libsm-io.a(sm_io.c.o)
+ .text.printf3  0x0000000000000000       0x34 /usr/local/share/sancus-support/lib/libsm-io.a(sm_io.c.o)
+ .data          0x0000000000000000        0x0 /usr/local/share/sancus-compiler/lib/libsancus-sm-support.a(sm_support.c.o)
+ .bss           0x0000000000000000        0x0 /usr/local/share/sancus-compiler/lib/libsancus-sm-support.a(sm_support.c.o)
+ .bss           0x0000000000000000        0x0 /usr/local/share/sancus-compiler/lib/libsancus-host-support.a(unprotected_entry.s.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_mulhi3.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_mulhi3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_mulhi3.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod16.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod16.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod16.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_divmod16.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_divmod16.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_divmod16.o)
+ .text.libgcc   0x0000000000000000       0x3a /usr/lib/gcc/msp430/4.6.3/libgcc.a(_divmod16.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod32.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod32.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod32.o)
+ .data          0x0000000000000000        0x0 /usr/msp430/lib/libc.a(memchr.o)
+ .bss           0x0000000000000000        0x0 /usr/msp430/lib/libc.a(memchr.o)
+ .data          0x0000000000000000        0x0 /usr/msp430/lib/libc.a(strncmp.o)
+ .bss           0x0000000000000000        0x0 /usr/msp430/lib/libc.a(strncmp.o)
+ .data          0x0000000000000000        0x0 /usr/msp430/lib/libc.a(memcmp.o)
+ .bss           0x0000000000000000        0x0 /usr/msp430/lib/libc.a(memcmp.o)
+ .text          0x0000000000000000       0x14 /usr/msp430/lib/libc.a(strcpy.o)
+ .data          0x0000000000000000        0x0 /usr/msp430/lib/libc.a(strcpy.o)
+ .bss           0x0000000000000000        0x0 /usr/msp430/lib/libc.a(strcpy.o)
+ .data          0x0000000000000000        0x0 /usr/msp430/lib/libc.a(memcpy.o)
+ .bss           0x0000000000000000        0x0 /usr/msp430/lib/libc.a(memcpy.o)
+ .data          0x0000000000000000        0x0 /usr/msp430/lib/libc.a(strdup.o)
+ .bss           0x0000000000000000        0x0 /usr/msp430/lib/libc.a(strdup.o)
+ .data          0x0000000000000000        0x0 /usr/msp430/lib/libc.a(memset.o)
+ .bss           0x0000000000000000        0x0 /usr/msp430/lib/libc.a(memset.o)
+ .data          0x0000000000000000        0x0 /usr/msp430/lib/libc.a(strlen.o)
+ .bss           0x0000000000000000        0x0 /usr/msp430/lib/libc.a(strlen.o)
+ .data          0x0000000000000000        0x0 /usr/msp430/lib/libc.a(strcat.o)
+ .bss           0x0000000000000000        0x0 /usr/msp430/lib/libc.a(strcat.o)
+ .data          0x0000000000000000        0x0 /usr/msp430/lib/libc.a(printf.o)
+ .bss           0x0000000000000000        0x0 /usr/msp430/lib/libc.a(printf.o)
+ .data          0x0000000000000000        0x0 /usr/msp430/lib/libc.a(sprintf.o)
+ .data          0x0000000000000000        0x0 /usr/msp430/lib/libc.a(vuprintf.o)
+ .bss           0x0000000000000000        0x0 /usr/msp430/lib/libc.a(vuprintf.o)
+ .data          0x0000000000000000        0x0 /usr/msp430/lib/libc.a(puts.o)
+ .bss           0x0000000000000000        0x0 /usr/msp430/lib/libc.a(puts.o)
+ .text          0x0000000000000000        0x0 /usr/msp430/lib/libc.a(div.o)
+ .data          0x0000000000000000        0x0 /usr/msp430/lib/libc.a(div.o)
+ .bss           0x0000000000000000        0x0 /usr/msp430/lib/libc.a(div.o)
+ .text.div      0x0000000000000000        0xc /usr/msp430/lib/libc.a(div.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod64.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod64.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod64.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_reset_vector__.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_reset_vector__.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_reset_vector__.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__watchdog_support.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__watchdog_support.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__watchdog_support.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__init_stack.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__init_stack.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__init_stack.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__low_level_init.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__low_level_init.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__low_level_init.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_copy_data.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_copy_data.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_copy_data.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_clear_bss.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_clear_bss.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_clear_bss.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__stop_progExec__.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__stop_progExec__.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__stop_progExec__.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_endless_loop__.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_endless_loop__.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_endless_loop__.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_unexpected_.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_unexpected_.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_unexpected_.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_ctors430.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_ctors430.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_ctors430.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+sfr              0x0000000000000000 0x0000000000000010
+peripheral_8bit  0x0000000000000010 0x00000000000000f0
+peripheral_16bit 0x0000000000000100 0x0000000000000100
+ram              0x0000000000000200 0x0000000000004000 xw
+rom              0x0000000000005c00 0x000000000000a3e0 xr
+vectors          0x000000000000ffe0 0x0000000000000020
+bsl              0x0000000000000000 0x0000000000000000
+infomem          0x0000000000000000 0x0000000000000000
+infob            0x0000000000000000 0x0000000000000000
+infoa            0x0000000000000000 0x0000000000000000
+infoc            0x0000000000000000 0x0000000000000000
+infod            0x0000000000000000 0x0000000000000000
+ram2             0x0000000000000000 0x0000000000000000 xw
+ram_mirror       0x0000000000000000 0x0000000000000000 xw
+usbram           0x0000000000000000 0x0000000000000000 xw
+far_rom          0x0000000000000000 0x0000000000000000
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/msp430/4.6.3/crt0ivtbl16.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/startup.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/pmodbtn.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/connection.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/static-symtab.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/command_handlers.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/periodic_event.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/led_driver.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/main.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/enclave_utils.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/networking.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/event_manager.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/event_generator.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/pmodled.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/button_driver.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/led_insecure.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/uart_reader.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/utils.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/auto_init/auto_init.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/board/board_init.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/board/uart.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/panic.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/bitarithm.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/sched.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/atomic_c11.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/mutex.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/lifo.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/cond.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/rmutex.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/ringbuffer.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/clist.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/priority_queue.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/kernel_init.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/atomic_sync.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/thread.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/assert.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/msg.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/irq.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/msp430_stdio.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/msp430-main.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/malloc.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/sancus_helpers.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/cpu.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/mspgcc-supplement.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/startup.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/oneway_malloc/oneway-malloc.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/stdio_uart/stdio_uart.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/gpio_util.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/init.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/flashpage.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/pm.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/i2c.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/cpuid.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/spi.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/eeprom.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/rtc.o
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/timer.o
+START GROUP
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive.a
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/auto_init.a
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/board.a
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core.a
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu.a
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/oneway_malloc.a
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph.a
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/stdio_uart.a
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/sys.a
+LOAD /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common.a
+LOAD /usr/msp430/lib/libm.a
+END GROUP
+LOAD /usr/local/share/sancus-support/lib/libsm-control.a
+LOAD /usr/local/share/sancus-support/lib/libloader.a
+LOAD /usr/local/share/sancus-support/lib/libtools.a
+LOAD /usr/local/share/sancus-support/lib/libsm-io.a
+LOAD /usr/local/share/sancus-compiler/lib/libsancus-sm-support.a
+LOAD /usr/local/share/sancus-compiler/lib/libsancus-host-support.a
+LOAD /usr/lib/gcc/msp430/4.6.3/libgcc.a
+LOAD /usr/msp430/lib/libc.a
+LOAD /usr/lib/gcc/msp430/4.6.3/libgcc.a
+LOAD /usr/lib/gcc/msp430/4.6.3/libcrt0.a
+                0x0000000000000000                __IE1 = 0x0
+                0x0000000000000002                __IFG1 = 0x2
+                0x0000000000000004                __ME1 = 0x4
+                0x0000000000000001                __IE2 = 0x1
+                0x0000000000000003                __IFG2 = 0x3
+                0x0000000000000005                __ME2 = 0x5
+                0x0000000000000120                __WDTCTL = 0x120
+                0x0000000000000130                __MPY = 0x130
+                0x0000000000000132                __MPYS = 0x132
+                0x0000000000000134                __MAC = 0x134
+                0x0000000000000136                __MACS = 0x136
+                0x0000000000000138                __OP2 = 0x138
+                0x000000000000013a                __RESLO = 0x13a
+                0x000000000000013c                __RESHI = 0x13c
+                0x000000000000013e                __SUMEXT = 0x13e
+                0x0000000000000020                __P1IN = 0x20
+                0x0000000000000021                __P1OUT = 0x21
+                0x0000000000000022                __P1DIR = 0x22
+                0x0000000000000023                __P1IFG = 0x23
+                0x0000000000000024                __P1IES = 0x24
+                0x0000000000000025                __P1IE = 0x25
+                0x0000000000000026                __P1SEL = 0x26
+                0x0000000000000028                __P2IN = 0x28
+                0x0000000000000029                __P2OUT = 0x29
+                0x000000000000002a                __P2DIR = 0x2a
+                0x000000000000002b                __P2IFG = 0x2b
+                0x000000000000002c                __P2IES = 0x2c
+                0x000000000000002d                __P2IE = 0x2d
+                0x000000000000002e                __P2SEL = 0x2e
+                0x0000000000000018                __P3IN = 0x18
+                0x0000000000000019                __P3OUT = 0x19
+                0x000000000000001a                __P3DIR = 0x1a
+                0x000000000000001b                __P3SEL = 0x1b
+                0x000000000000001c                __P4IN = 0x1c
+                0x000000000000001d                __P4OUT = 0x1d
+                0x000000000000001e                __P4DIR = 0x1e
+                0x000000000000001f                __P4SEL = 0x1f
+                0x0000000000000030                __P5IN = 0x30
+                0x0000000000000031                __P5OUT = 0x31
+                0x0000000000000032                __P5DIR = 0x32
+                0x0000000000000033                __P5SEL = 0x33
+                0x0000000000000034                __P6IN = 0x34
+                0x0000000000000035                __P6OUT = 0x35
+                0x0000000000000036                __P6DIR = 0x36
+                0x0000000000000037                __P6SEL = 0x37
+                0x0000000000000070                __U0CTL = 0x70
+                0x0000000000000071                __U0TCTL = 0x71
+                0x0000000000000072                __U0RCTL = 0x72
+                0x0000000000000073                __U0MCTL = 0x73
+                0x0000000000000074                __U0BR0 = 0x74
+                0x0000000000000075                __U0BR1 = 0x75
+                0x0000000000000076                __U0RXBUF = 0x76
+                0x0000000000000077                __U0TXBUF = 0x77
+                0x0000000000000078                __U1CTL = 0x78
+                0x0000000000000079                __U1TCTL = 0x79
+                0x000000000000007a                __U1RCTL = 0x7a
+                0x000000000000007b                __U1MCTL = 0x7b
+                0x000000000000007c                __U1BR0 = 0x7c
+                0x000000000000007d                __U1BR1 = 0x7d
+                0x000000000000007e                __U1RXBUF = 0x7e
+                0x000000000000007f                __U1TXBUF = 0x7f
+                0x000000000000012e                __TAIV = 0x12e
+                0x0000000000000160                __TACTL = 0x160
+                0x0000000000000162                __TACCTL0 = 0x162
+                0x0000000000000164                __TACCTL1 = 0x164
+                0x0000000000000166                __TACCTL2 = 0x166
+                0x0000000000000170                __TAR = 0x170
+                0x0000000000000172                __TACCR0 = 0x172
+                0x0000000000000174                __TACCR1 = 0x174
+                0x0000000000000176                __TACCR2 = 0x176
+                0x000000000000011e                __TBIV = 0x11e
+                0x0000000000000180                __TBCTL = 0x180
+                0x0000000000000182                __TBCCTL0 = 0x182
+                0x0000000000000184                __TBCCTL1 = 0x184
+                0x0000000000000186                __TBCCTL2 = 0x186
+                0x0000000000000188                __TBCCTL3 = 0x188
+                0x000000000000018a                __TBCCTL4 = 0x18a
+                0x000000000000018c                __TBCCTL5 = 0x18c
+                0x000000000000018e                __TBCCTL6 = 0x18e
+                0x0000000000000190                __TBR = 0x190
+                0x0000000000000192                __TBCCR0 = 0x192
+                0x0000000000000194                __TBCCR1 = 0x194
+                0x0000000000000196                __TBCCR2 = 0x196
+                0x0000000000000198                __TBCCR3 = 0x198
+                0x000000000000019a                __TBCCR4 = 0x19a
+                0x000000000000019c                __TBCCR5 = 0x19c
+                0x000000000000019e                __TBCCR6 = 0x19e
+                0x0000000000000056                __DCOCTL = 0x56
+                0x0000000000000057                __BCSCTL1 = 0x57
+                0x0000000000000058                __BCSCTL2 = 0x58
+                0x0000000000000128                __FCTL1 = 0x128
+                0x000000000000012a                __FCTL2 = 0x12a
+                0x000000000000012c                __FCTL3 = 0x12c
+                0x0000000000000059                __CACTL1 = 0x59
+                0x000000000000005a                __CACTL2 = 0x5a
+                0x000000000000005b                __CAPD = 0x5b
+                0x00000000000001a0                __ADC12CTL0 = 0x1a0
+                0x00000000000001a2                __ADC12CTL1 = 0x1a2
+                0x00000000000001a4                __ADC12IFG = 0x1a4
+                0x00000000000001a6                __ADC12IE = 0x1a6
+                0x00000000000001a8                __ADC12IV = 0x1a8
+                0x0000000000000140                __ADC12MEM0 = 0x140
+                0x0000000000000142                __ADC12MEM1 = 0x142
+                0x0000000000000144                __ADC12MEM2 = 0x144
+                0x0000000000000146                __ADC12MEM3 = 0x146
+                0x0000000000000148                __ADC12MEM4 = 0x148
+                0x000000000000014a                __ADC12MEM5 = 0x14a
+                0x000000000000014c                __ADC12MEM6 = 0x14c
+                0x000000000000014e                __ADC12MEM7 = 0x14e
+                0x0000000000000150                __ADC12MEM8 = 0x150
+                0x0000000000000152                __ADC12MEM9 = 0x152
+                0x0000000000000154                __ADC12MEM10 = 0x154
+                0x0000000000000156                __ADC12MEM11 = 0x156
+                0x0000000000000158                __ADC12MEM12 = 0x158
+                0x000000000000015a                __ADC12MEM13 = 0x15a
+                0x000000000000015c                __ADC12MEM14 = 0x15c
+                0x000000000000015e                __ADC12MEM15 = 0x15e
+                0x0000000000000080                __ADC12MCTL0 = 0x80
+                0x0000000000000081                __ADC12MCTL1 = 0x81
+                0x0000000000000082                __ADC12MCTL2 = 0x82
+                0x0000000000000083                __ADC12MCTL3 = 0x83
+                0x0000000000000084                __ADC12MCTL4 = 0x84
+                0x0000000000000085                __ADC12MCTL5 = 0x85
+                0x0000000000000086                __ADC12MCTL6 = 0x86
+                0x0000000000000087                __ADC12MCTL7 = 0x87
+                0x0000000000000088                __ADC12MCTL8 = 0x88
+                0x0000000000000089                __ADC12MCTL9 = 0x89
+                0x000000000000008a                __ADC12MCTL10 = 0x8a
+                0x000000000000008b                __ADC12MCTL11 = 0x8b
+                0x000000000000008c                __ADC12MCTL12 = 0x8c
+                0x000000000000008d                __ADC12MCTL13 = 0x8d
+                0x000000000000008e                __ADC12MCTL14 = 0x8e
+                0x000000000000008f                __ADC12MCTL15 = 0x8f
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.text
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+
+.rela.text
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+
+.rel.rodata
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+
+.rela.rodata
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+
+.rel.data
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+
+.rela.data
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+
+.rel.bss
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+
+.rela.bss
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x0000000000005c00     0x7650
+                0x0000000000005c00                . = ALIGN (0x2)
+ *(.init .init.*)
+ *(.init0)
+ .init0         0x0000000000005c00        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_reset_vector__.o)
+                0x0000000000005c00                _reset_vector__
+ *(.init1)
+ .init1         0x0000000000005c00        0xc /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__watchdog_support.o)
+                0x0000000000005c00                __watchdog_support
+ *(.init2)
+ .init2         0x0000000000005c0c        0x4 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__init_stack.o)
+                0x0000000000005c0c                __init_stack
+ *(.init3)
+ .init3         0x0000000000005c10        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__low_level_init.o)
+                0x0000000000005c10                __low_level_init
+ *(.init4)
+ .init4         0x0000000000005c10       0x18 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_copy_data.o)
+                0x0000000000005c10                __do_copy_data
+ .init4         0x0000000000005c28       0x16 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_clear_bss.o)
+                0x0000000000005c28                __do_clear_bss
+ *(.init5)
+ *(.init6)
+ .init6         0x0000000000005c3e       0x14 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_ctors430.o)
+                0x0000000000005c3e                __do_global_ctors
+ *(.init7)
+ *(.init8)
+ *(.init9)
+ .init9         0x0000000000005c52       0x7e /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/main.o
+                0x0000000000005c52                main
+ *(.fini9)
+ .fini9         0x0000000000005cd0        0xc /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/cpu.o
+                0x0000000000005cd0                __main_epilogue
+ .fini9         0x0000000000005cdc        0x0 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__stop_progExec__.o)
+                0x0000000000005cdc                __stop_progExec__
+ *(.fini8)
+ *(.fini7)
+ *(.fini6)
+ *(.fini5)
+ *(.fini4)
+ *(.fini3)
+ *(.fini2)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x0000000000005cdc        0x6 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_endless_loop__.o)
+                0x0000000000005cdc                _endless_loop__
+ *(.fini .fini.*)
+                0x0000000000005ce2                . = ALIGN (0x2)
+                0x0000000000005ce2                __ctors_start = .
+ *(.ctors)
+ .ctors         0x0000000000005ce2        0x2 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/startup.o
+ .ctors         0x0000000000005ce4        0x2 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/startup.o
+                0x0000000000005ce6                __ctors_end = .
+                0x0000000000005ce6                __dtors_start = .
+ *(.dtors)
+                0x0000000000005ce6                __dtors_end = .
+                0x0000000000005ce6                . = ALIGN (0x2)
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000005ce6        0x4 /usr/lib/gcc/msp430/4.6.3/crt0ivtbl16.o
+                0x0000000000005ce6                __isr_14
+                0x0000000000005ce6                __isr_4
+                0x0000000000005ce6                __isr_11
+                0x0000000000005ce6                __isr_5
+                0x0000000000005ce6                __isr_2
+                0x0000000000005ce6                __isr_10
+                0x0000000000005ce6                __isr_0
+                0x0000000000005ce6                __isr_8
+                0x0000000000005ce6                __isr_3
+                0x0000000000005ce6                __isr_12
+                0x0000000000005ce6                __isr_9
+                0x0000000000005ce6                __isr_6
+                0x0000000000005ce6                __isr_1
+ *fill*         0x0000000000005cea        0x2 00
+ .text          0x0000000000005cec       0x38 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/startup.o
+ .text          0x0000000000005d24      0x180 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/connection.o
+                0x0000000000005d24                connections_add
+                0x0000000000005dac                connections_get
+                0x0000000000005e14                connections_replace
+ .text          0x0000000000005ea4      0x4f0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/command_handlers.o
+                0x0000000000005ea4                handler_add_connection
+                0x000000000000608c                handler_call_entrypoint
+                0x00000000000061b4                handler_remote_output
+                0x00000000000062d8                handler_load_sm
+                0x0000000000006308                handler_ping
+                0x000000000000634c                handler_register_entrypoint
+ .text          0x0000000000006394        0xc /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/main.o
+ .text          0x00000000000063a0      0xf78 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/enclave_utils.o
+                0x00000000000063a0                load_sm_from_buffer
+                0x0000000000006464                copy_to_buf
+                0x00000000000064c0                read_global_symbols
+                0x00000000000065b0                read_module_sections
+                0x00000000000067c0                load_enclave
+                0x0000000000006a2c                reactive_handle_output
+                0x0000000000006c34                reactive_handle_input
+                0x0000000000006ce0                handle_set_key
+                0x0000000000006eb8                handle_attest
+                0x0000000000007014                handle_disable
+                0x0000000000007188                handle_user_entrypoint
+ .text          0x0000000000007318      0x810 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/networking.o
+                0x0000000000007318                create_message
+                0x0000000000007364                destroy_message
+                0x00000000000073a0                u8_to_header
+                0x00000000000073d4                header_to_u8
+                0x00000000000073f0                u8_to_result_code
+                0x0000000000007424                result_code_to_u8
+                0x0000000000007440                create_result_message
+                0x000000000000748c                destroy_result_message
+                0x00000000000074b8                u8_to_command_code
+                0x00000000000074ec                command_code_to_u8
+                0x0000000000007508                create_command_message
+                0x0000000000007554                destroy_command_message
+                0x0000000000007580                available_bytes
+                0x000000000000758c                read_byte
+                0x00000000000075a4                write_byte
+                0x00000000000075c4                handshake
+                0x0000000000007624                read_buf_ack
+                0x00000000000076d8                read_buf
+                0x000000000000770c                write_buf
+                0x000000000000773c                read_u16
+                0x00000000000077cc                write_u16
+                0x0000000000007840                read_message
+                0x00000000000078a0                write_message
+                0x00000000000078dc                read_result_message
+                0x0000000000007938                write_result_message
+                0x0000000000007990                read_command_message
+                0x00000000000079ec                write_command_message
+ .text          0x0000000000007b28      0x10c /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/event_manager.o
+                0x0000000000007b28                process_message
+                0x0000000000007bc8                event_manager_run
+ .text          0x0000000000007c34       0x6c /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/led_insecure.o
+                0x0000000000007c34                led_insecure_init
+                0x0000000000007c4c                led_insecure_toggle
+ .text          0x0000000000007ca0       0xc4 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/uart_reader.o
+                0x0000000000007ca0                create_uart_reader_data
+                0x0000000000007cd4                destroy_uart_reader_data
+                0x0000000000007cf4                uart_reader_run
+ .text          0x0000000000007d64       0x2c /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/utils.o
+                0x0000000000007d64                malloc_aligned
+ .text          0x0000000000007d90        0x8 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/auto_init/auto_init.o
+                0x0000000000007d90                auto_init
+ .text          0x0000000000007d98      0x120 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/board/board_init.o
+                0x0000000000007d98                board_init
+ .text          0x0000000000007eb8      0x2e8 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/board/uart.o
+                0x0000000000007eb8                uart_init
+                0x0000000000007f34                uart_set_receive_cb
+                0x0000000000007f54                uart_available
+                0x0000000000007fac                uart2_write_byte
+                0x0000000000007fd4                uart_write_byte
+                0x0000000000007ffc                uart_write
+                0x0000000000008044                uart2_write
+                0x000000000000808c                uart_read_byte
+                0x00000000000080d0                uart_read
+                0x000000000000811c                uart_flush
+                0x0000000000008134                __isr_7
+                0x0000000000008168                uart_print_receive_buffer
+ .text          0x00000000000081a0      0x3fc /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/sched.o
+                0x00000000000081a0                sched_run
+                0x00000000000082a4                sched_set_status
+                0x00000000000084f0                sched_switch
+                0x0000000000008564                sched_task_exit
+ .text          0x000000000000859c      0x270 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/mutex.o
+                0x000000000000859c                _mutex_lock
+                0x0000000000008660                mutex_unlock
+                0x0000000000008764                mutex_unlock_and_sleep
+ .text          0x000000000000880c       0xc4 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/kernel_init.o
+                0x000000000000880c                kernel_init
+ .text          0x00000000000088d0      0x55c /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/thread.o
+                0x00000000000088d0                thread_get
+                0x0000000000008970                thread_getstatus
+                0x00000000000089b8                thread_getname
+                0x00000000000089d0                thread_sleep
+                0x0000000000008a08                thread_wakeup
+                0x0000000000008a8c                thread_yield
+                0x0000000000008b0c                thread_add_to_list
+                0x0000000000008bac                thread_create
+ .text          0x0000000000008e2c      0xbd8 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/msg.o
+                0x0000000000008e2c                msg_send
+                0x0000000000008ec0                msg_send_int
+                0x0000000000008f7c                msg_send_to_self
+                0x0000000000009148                msg_try_send
+                0x000000000000926c                msg_send_receive
+                0x0000000000009308                msg_reply
+                0x00000000000093c8                msg_reply_int
+                0x0000000000009460                msg_try_receive
+                0x0000000000009690                msg_receive
+                0x00000000000096b0                msg_avail
+                0x0000000000009740                msg_init_queue
+                0x00000000000097e8                msg_queue_print
+ .text          0x0000000000009a04       0x94 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/irq.o
+                0x0000000000009a04                irq_disable
+                0x0000000000009a34                irq_enable
+                0x0000000000009a64                irq_restore
+                0x0000000000009a8c                irq_is_in
+ .text          0x0000000000009a98      0x17c /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/msp430-main.o
+                0x0000000000009a98                msp430_cpu_init
+                0x0000000000009ae8                sbrk
+                0x0000000000009b68                splhigh_
+                0x0000000000009b88                splx_
+                0x0000000000009bb0                strnlen
+ .text          0x0000000000009c14      0x874 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/malloc.o
+                0x0000000000009c14                malloc
+                0x0000000000009e94                free
+                0x000000000000a0b0                realloc
+                0x000000000000a408                calloc
+ .text          0x000000000000a488      0x1cc /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/cpu.o
+                0x000000000000a488                thread_yield_higher
+                0x000000000000a4d4                thread_isr_stack_usage
+                0x000000000000a4e0                thread_isr_stack_pointer
+                0x000000000000a4ec                thread_isr_stack_start
+                0x000000000000a4f8                cpu_switch_context_exit
+                0x000000000000a538                thread_stack_init
+ .text          0x000000000000a654       0x38 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/startup.o
+ .text          0x000000000000a68c       0xa0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/stdio_uart/stdio_uart.o
+                0x000000000000a68c                stdio_init
+                0x000000000000a6c0                stdio_read
+                0x000000000000a6e4                stdio_write
+ .text          0x000000000000a72c        0x8 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/init.o
+                0x000000000000a72c                periph_init
+ .text          0x000000000000a734       0x1c /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/pm.o
+                0x000000000000a734                pm_off
+                0x000000000000a748                pm_set_lowest
+ .text.find_sm_list
+                0x000000000000a750       0x44 /usr/local/share/sancus-support/lib/libsm-control.a(sm_control.c.o)
+ .text.get_sm_symbol
+                0x000000000000a794       0xea /usr/local/share/sancus-support/lib/libsm-control.a(sm_control.c.o)
+ .text.append_sm_list
+                0x000000000000a87e       0x46 /usr/local/share/sancus-support/lib/libsm-control.a(sm_control.c.o)
+ .text.register_sm
+                0x000000000000a8c4      0x120 /usr/local/share/sancus-support/lib/libsm-control.a(sm_control.c.o)
+ .text.sm_load  0x000000000000a9e4       0x58 /usr/local/share/sancus-support/lib/libsm-control.a(sm_control.c.o)
+                0x000000000000a9e4                sm_load
+ .text.enter_sm
+                0x000000000000aa3c       0x5c /usr/local/share/sancus-support/lib/libsm-control.a(sm_control.c.o)
+ .text.sm_call_module
+                0x000000000000aa98       0xa6 /usr/local/share/sancus-support/lib/libsm-control.a(sm_control.c.o)
+                0x000000000000aa98                sm_call_module
+ .text.sm_call_id
+                0x000000000000ab3e       0x52 /usr/local/share/sancus-support/lib/libsm-control.a(sm_control.c.o)
+                0x000000000000ab3e                sm_call_id
+ .text.sm_get_by_id
+                0x000000000000ab90       0x2c /usr/local/share/sancus-support/lib/libsm-control.a(sm_control.c.o)
+                0x000000000000ab90                sm_get_by_id
+ .text.sm_get_elf_by_id
+                0x000000000000abbc       0x30 /usr/local/share/sancus-support/lib/libsm-control.a(sm_control.c.o)
+                0x000000000000abbc                sm_get_elf_by_id
+ .text.get_section_header
+                0x000000000000abec       0x86 /usr/local/share/sancus-support/lib/libloader.a(elf.c.o)
+ .text.get_sh_begin
+                0x000000000000ac72       0x1c /usr/local/share/sancus-support/lib/libloader.a(elf.c.o)
+ .text.get_sh_end
+                0x000000000000ac8e       0x2e /usr/local/share/sancus-support/lib/libloader.a(elf.c.o)
+ .text.get_section_name
+                0x000000000000acbc       0x92 /usr/local/share/sancus-support/lib/libloader.a(elf.c.o)
+ .text.get_symbol_name
+                0x000000000000ad4e       0xae /usr/local/share/sancus-support/lib/libloader.a(elf.c.o)
+ .text.should_allocate
+                0x000000000000adfc       0x78 /usr/local/share/sancus-support/lib/libloader.a(elf.c.o)
+ .text.should_allocate_pmem
+                0x000000000000ae74       0x7c /usr/local/share/sancus-support/lib/libloader.a(elf.c.o)
+ .text.align_up
+                0x000000000000aef0       0x4e /usr/local/share/sancus-support/lib/libloader.a(elf.c.o)
+ .text.get_alloc_size
+                0x000000000000af3e       0x80 /usr/local/share/sancus-support/lib/libloader.a(elf.c.o)
+ .text.load_sections
+                0x000000000000afbe      0x3b6 /usr/local/share/sancus-support/lib/libloader.a(elf.c.o)
+ .text.get_local_symbol_value
+                0x000000000000b374      0x12c /usr/local/share/sancus-support/lib/libloader.a(elf.c.o)
+ .text.relocate_section
+                0x000000000000b4a0      0x390 /usr/local/share/sancus-support/lib/libloader.a(elf.c.o)
+ .text.relocate_sections
+                0x000000000000b830       0xb8 /usr/local/share/sancus-support/lib/libloader.a(elf.c.o)
+ .text.should_add_symbol
+                0x000000000000b8e8       0x7a /usr/local/share/sancus-support/lib/libloader.a(elf.c.o)
+ .text.update_global_symtab
+                0x000000000000b962      0x280 /usr/local/share/sancus-support/lib/libloader.a(elf.c.o)
+ .text.elf_load
+                0x000000000000bbe2      0x152 /usr/local/share/sancus-support/lib/libloader.a(elf.c.o)
+                0x000000000000bbe2                elf_load
+ .text.elf_unload
+                0x000000000000bd34       0x38 /usr/local/share/sancus-support/lib/libloader.a(elf.c.o)
+                0x000000000000bd34                elf_unload
+ .text.pmem_malloc
+                0x000000000000bd6c       0x66 /usr/local/share/sancus-support/lib/libloader.a(pmem.c.o)
+                0x000000000000bd6c                pmem_malloc
+ .text.pmem_free
+                0x000000000000bdd2       0x12 /usr/local/share/sancus-support/lib/libloader.a(pmem.c.o)
+                0x000000000000bdd2                pmem_free
+ .text.symbol_matches
+                0x000000000000bde4       0x74 /usr/local/share/sancus-support/lib/libloader.a(global_symtab.c.o)
+ .text.symtab_get_num_symbols
+                0x000000000000be58       0x36 /usr/local/share/sancus-support/lib/libloader.a(global_symtab.c.o)
+                0x000000000000be58                symtab_get_num_symbols
+ .text.symtab_get_symbol
+                0x000000000000be8e       0xc2 /usr/local/share/sancus-support/lib/libloader.a(global_symtab.c.o)
+                0x000000000000be8e                symtab_get_symbol
+ .text.get_global_symbol_value
+                0x000000000000bf50       0xb4 /usr/local/share/sancus-support/lib/libloader.a(global_symtab.c.o)
+                0x000000000000bf50                get_global_symbol_value
+ .text.add_symbol
+                0x000000000000c004       0xbc /usr/local/share/sancus-support/lib/libloader.a(global_symtab.c.o)
+ .text.add_global_symbol
+                0x000000000000c0c0       0x30 /usr/local/share/sancus-support/lib/libloader.a(global_symtab.c.o)
+                0x000000000000c0c0                add_global_symbol
+ .text.add_module_section
+                0x000000000000c0f0       0x30 /usr/local/share/sancus-support/lib/libloader.a(global_symtab.c.o)
+                0x000000000000c0f0                add_module_section
+ .text.remove_global_symbols
+                0x000000000000c120       0x8a /usr/local/share/sancus-support/lib/libloader.a(global_symtab.c.o)
+                0x000000000000c120                remove_global_symbols
+ .text.create_parse_state
+                0x000000000000c1aa       0x3c /usr/local/share/sancus-support/lib/libtools.a(tools.c.o)
+                0x000000000000c1aa                create_parse_state
+ .text.free_parse_state
+                0x000000000000c1e6       0x1a /usr/local/share/sancus-support/lib/libtools.a(tools.c.o)
+                0x000000000000c1e6                free_parse_state
+ .text.advance_state
+                0x000000000000c200       0x40 /usr/local/share/sancus-support/lib/libtools.a(tools.c.o)
+ .text.parse_byte
+                0x000000000000c240       0x42 /usr/local/share/sancus-support/lib/libtools.a(tools.c.o)
+                0x000000000000c240                parse_byte
+ .text.parse_int
+                0x000000000000c282       0x64 /usr/local/share/sancus-support/lib/libtools.a(tools.c.o)
+                0x000000000000c282                parse_int
+ .text.parse_string
+                0x000000000000c2e6       0x9e /usr/local/share/sancus-support/lib/libtools.a(tools.c.o)
+                0x000000000000c2e6                parse_string
+ .text.parse_raw_data
+                0x000000000000c384       0x4c /usr/local/share/sancus-support/lib/libtools.a(tools.c.o)
+                0x000000000000c384                parse_raw_data
+ .text.parse_all_raw_data
+                0x000000000000c3d0       0x50 /usr/local/share/sancus-support/lib/libtools.a(tools.c.o)
+                0x000000000000c3d0                parse_all_raw_data
+ .text.putchar  0x000000000000c420       0x30 /usr/local/share/sancus-support/lib/libsm-io.a(sm_io.c.o)
+                0x000000000000c420                putchar
+ .text.stop_violation
+                0x000000000000c450       0x14 /usr/local/share/sancus-support/lib/libsm-io.a(sm_io.c.o)
+                0x000000000000c450                stop_violation
+ .text.violation_isr
+                0x000000000000c464        0x8 /usr/local/share/sancus-support/lib/libsm-io.a(sm_io.c.o)
+                0x000000000000c464                __isr_13
+                0x000000000000c464                violation_isr
+ .text          0x000000000000c46c       0xdc /usr/local/share/sancus-compiler/lib/libsancus-sm-support.a(sm_support.c.o)
+                0x000000000000c46c                sancus_enable_wrapped
+                0x000000000000c4ae                sancus_enable
+                0x000000000000c4cc                is_buffer_outside_region
+ .text          0x000000000000c548       0x10 /usr/local/share/sancus-compiler/lib/libsancus-host-support.a(unprotected_entry.s.o)
+                0x000000000000c548                __unprotected_entry
+ .text.libgcc   0x000000000000c558       0x18 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_mulhi3.o)
+                0x000000000000c558                __mulhi3
+ .text.libgcc   0x000000000000c570       0x22 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod16.o)
+                0x000000000000c570                __udivhi3
+                0x000000000000c570                __ext_udivmod16
+                0x000000000000c58a                __umodhi3
+ .text.libgcc   0x000000000000c592       0x40 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod32.o)
+                0x000000000000c592                __udivsi3
+                0x000000000000c592                __ext_udivmod32
+                0x000000000000c5c8                __umodsi3
+ .text          0x000000000000c5d2       0x1c /usr/msp430/lib/libc.a(memchr.o)
+                0x000000000000c5d2                memchr
+ .text          0x000000000000c5ee       0x28 /usr/msp430/lib/libc.a(strncmp.o)
+                0x000000000000c5ee                strncmp
+ .text          0x000000000000c616       0x20 /usr/msp430/lib/libc.a(memcmp.o)
+                0x000000000000c616                memcmp
+ .text          0x000000000000c636       0xfa /usr/msp430/lib/libc.a(memcpy.o)
+                0x000000000000c636                memcpy
+ .text          0x000000000000c730       0x38 /usr/msp430/lib/libc.a(strdup.o)
+                0x000000000000c730                strdup
+ .text          0x000000000000c768       0x6a /usr/msp430/lib/libc.a(memset.o)
+                0x000000000000c768                memset
+ .text          0x000000000000c7d2       0x36 /usr/msp430/lib/libc.a(strlen.o)
+                0x000000000000c7d2                strlen
+ .text          0x000000000000c808       0x1a /usr/msp430/lib/libc.a(strcat.o)
+                0x000000000000c808                strcat
+ .text          0x000000000000c822       0x1e /usr/msp430/lib/libc.a(printf.o)
+                0x000000000000c822                printf
+                0x000000000000c832                vprintf
+ .text          0x000000000000c840       0xbc /usr/msp430/lib/libc.a(sprintf.o)
+                0x000000000000c89e                sprintf
+                0x000000000000c8ba                snprintf
+                0x000000000000c8d4                vsprintf
+                0x000000000000c8ea                vsnprintf
+ .text          0x000000000000c8fc      0x836 /usr/msp430/lib/libc.a(vuprintf.o)
+                0x000000000000ca94                vuprintf
+ .text          0x000000000000d132       0x2c /usr/msp430/lib/libc.a(puts.o)
+                0x000000000000d132                puts
+ .text.libgcc   0x000000000000d15e       0xf0 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod64.o)
+                0x000000000000d15e                __xabi_udivmod64
+                0x000000000000d1bc                __udivdi3
+                0x000000000000d1e2                __umoddi3
+                0x000000000000d210                __udivmoddi4
+ .text.crt0     0x000000000000d24e        0x2 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_unexpected_.o)
+                0x000000000000d24e                _unexpected_
+                0x000000000000d250                . = ALIGN (0x2)
+
+.rodata         0x000000000000d250      0x238
+                0x000000000000d250                . = ALIGN (0x2)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x000000000000d250       0x64 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/static-symtab.o
+ .rodata        0x000000000000d2b4       0x26 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/static-symtab.o
+                0x000000000000d2b4                static_symbols
+                0x000000000000d2d8                num_static_symbols
+ .rodata.str1.1
+                0x000000000000d2da        0xb /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/main.o
+ .rodata.str1.1
+                0x000000000000d2e5       0x22 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/enclave_utils.o
+                                         0x25 (size before relaxing)
+ *fill*         0x000000000000d307        0x1 00
+ .rodata        0x000000000000d308        0xc /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/event_manager.o
+ .rodata.str1.1
+                0x000000000000d314        0x3 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/board/board_init.o
+ .rodata.str1.1
+                0x000000000000d317        0xa /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/kernel_init.o
+ .rodata.str1.1
+                0x000000000000d321       0x6d /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/msg.o
+ .rodata        0x000000000000d38e       0x3a /usr/local/share/sancus-support/lib/libsm-control.a(sm_control.c.o)
+ .rodata        0x000000000000d3c8       0xb8 /usr/local/share/sancus-support/lib/libsm-io.a(sm_io.c.o)
+ .rodata        0x000000000000d480        0x7 /usr/msp430/lib/libc.a(vuprintf.o)
+                0x000000000000d488                . = ALIGN (0x2)
+ *fill*         0x000000000000d487        0x1 00
+                0x000000000000d488                _etext = .
+
+.data           0x0000000000000200       0x58 load address 0x000000000000d488
+                0x0000000000000200                . = ALIGN (0x2)
+                0x0000000000000200                PROVIDE (__data_start, .)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000000000200       0x40 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/enclave_utils.o
+                0x0000000000000200                connection_idxs
+ .data          0x0000000000000240        0x4 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/kernel_init.o
+                0x0000000000000240                main_name
+                0x0000000000000242                idle_name
+ .data          0x0000000000000244        0x2 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/msp430-main.o
+                0x0000000000000244                cur_break
+ .data          0x0000000000000246        0x4 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/malloc.o
+                0x0000000000000246                __malloc_margin
+                0x0000000000000248                __malloc_heap_start
+ .data          0x000000000000024a        0x7 /usr/local/share/sancus-support/lib/libloader.a(elf.c.o)
+ *fill*         0x0000000000000251        0x1 00
+ .data          0x0000000000000252        0x2 /usr/local/share/sancus-support/lib/libloader.a(pmem.c.o)
+ .data          0x0000000000000254        0x4 /usr/local/share/sancus-compiler/lib/libsancus-host-support.a(unprotected_entry.s.o)
+                0x0000000000000258                . = ALIGN (0x2)
+                0x0000000000000258                _edata = .
+                0x000000000000d488                PROVIDE (__data_load_start, LOADADDR (.data))
+                0x0000000000000058                PROVIDE (__data_size, (_edata - __data_start))
+
+.bss            0x0000000000000258      0xfee load address 0x000000000000d4e0
+                0x0000000000000258                PROVIDE (__bss_start, .)
+ *(.bss .bss.*)
+ .bss           0x0000000000000258        0x2 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/connection.o
+ .bss           0x000000000000025a      0x280 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/main.o
+                0x000000000000025a                queue
+                0x00000000000002da                uart_thread_stack
+ .bss           0x00000000000004da        0x2 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/networking.o
+                0x00000000000004da                mutex
+ .bss           0x00000000000004dc        0x2 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/led_insecure.o
+ .bss           0x00000000000004de       0x86 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/board/uart.o
+                0x00000000000004de                receive_cb
+ .bss           0x0000000000000564       0x6e /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/sched.o
+                0x0000000000000564                sched_num_threads
+                0x0000000000000566                sched_active_pid
+                0x0000000000000568                sched_context_switch_request
+                0x000000000000056a                sched_active_thread
+                0x000000000000056c                sched_runqueues
+                0x000000000000058c                sched_threads
+ .bss           0x00000000000005d2      0x460 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/kernel_init.o
+ .bss           0x0000000000000a32      0x802 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/irq.o
+                0x0000000000000a32                __irq_is_in
+                0x0000000000000a34                __isr_stack
+ .bss           0x0000000000001234        0x2 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/msp430-main.o
+                0x0000000000001234                __heap_end
+ .bss           0x0000000000001236        0x2 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/malloc.o
+                0x0000000000001236                __flp
+ .bss           0x0000000000001238        0x2 /usr/local/share/sancus-support/lib/libsm-control.a(sm_control.c.o)
+                0x0000000000001238                sm_head
+ .bss           0x000000000000123a        0x6 /usr/local/share/sancus-support/lib/libloader.a(global_symtab.c.o)
+ .bss           0x0000000000001240        0x4 /usr/msp430/lib/libc.a(sprintf.o)
+ *(COMMON)
+                0x0000000000001244                . = ALIGN (0x2)
+                0x0000000000001244                __unprotected_sp = .
+                0x0000000000001246                . = (. + 0x2)
+ *fill*         0x0000000000001244        0x2 00
+                0x0000000000001246                PROVIDE (__bss_end, .)
+                0x0000000000000fee                PROVIDE (__bss_size, SIZEOF (.bss))
+
+.noinit         0x0000000000001246        0x2 load address 0x000000000000d4e0
+                0x0000000000001246                PROVIDE (__noinit_start, .)
+ *(.noinit .noinit.*)
+ .noinit.crt0   0x0000000000001246        0x2 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__watchdog_support.o)
+                0x0000000000001246                __wdt_clear_value
+                0x0000000000001248                . = ALIGN (0x2)
+                0x0000000000001248                PROVIDE (__noinit_end, .)
+                0x0000000000001248                . = ALIGN (0x2)
+                0x0000000000001248                _end = .
+
+.infomem        0x0000000000000000        0x0
+ *(.infomem)
+                0x0000000000000000                . = ALIGN (0x2)
+ *(.infomem.*)
+
+.infomemnobits  0x0000000000000000        0x0
+ *(.infomemnobits)
+                0x0000000000000000                . = ALIGN (0x2)
+ *(.infomemnobits.*)
+
+.infoa
+ *(.infoa .infoa.*)
+
+.infob
+ *(.infob .infob.*)
+
+.infoc
+ *(.infoc .infoc.*)
+
+.infod
+ *(.infod .infod.*)
+
+.vectors        0x000000000000ffe0       0x20
+                0x000000000000ffe0                PROVIDE (__vectors_start, .)
+ *(.vectors*)
+ .vectors       0x000000000000ffe0       0x20 /usr/lib/gcc/msp430/4.6.3/crt0ivtbl16.o
+                0x000000000000ffe0                __ivtbl_16
+                0x0000000000010000                _vectors_end = .
+
+.fartext        0x0000000000000000        0x0
+                0x0000000000000000                . = ALIGN (0x2)
+ *(.fartext)
+                0x0000000000000000                . = ALIGN (0x2)
+ *(.fartext.*)
+                0x0000000000000000                _efartext = .
+
+.profiler
+ *(.profiler)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x15
+ *(.comment)
+ .comment       0x0000000000000000       0x15 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/startup.o
+                                         0x16 (size before relaxing)
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/pmodbtn.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/connection.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/static-symtab.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/command_handlers.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/periodic_event.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/led_driver.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/main.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/enclave_utils.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/networking.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/event_manager.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/event_generator.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/pmodled.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/button_driver.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/led_insecure.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/uart_reader.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/utils.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/auto_init/auto_init.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/board/board_init.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/board/uart.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/panic.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/bitarithm.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/sched.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/atomic_c11.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/mutex.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/lifo.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/cond.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/rmutex.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/ringbuffer.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/clist.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/priority_queue.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/kernel_init.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/atomic_sync.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/thread.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/assert.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/msg.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/irq.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/msp430_stdio.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/msp430-main.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/malloc.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/sancus_helpers.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/cpu.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/mspgcc-supplement.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/startup.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/oneway_malloc/oneway-malloc.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/stdio_uart/stdio_uart.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/gpio_util.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/init.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/flashpage.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/pm.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/i2c.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/cpuid.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/spi.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/eeprom.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/rtc.o
+ .comment       0x0000000000000000       0x16 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/timer.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x1f4
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x14 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_mulhi3.o)
+ .debug_aranges
+                0x0000000000000014       0x14 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod16.o)
+ .debug_aranges
+                0x0000000000000028       0x14 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_divmod16.o)
+ .debug_aranges
+                0x000000000000003c       0x14 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod32.o)
+ .debug_aranges
+                0x0000000000000050       0x14 /usr/msp430/lib/libc.a(memchr.o)
+ .debug_aranges
+                0x0000000000000064       0x14 /usr/msp430/lib/libc.a(strncmp.o)
+ .debug_aranges
+                0x0000000000000078       0x14 /usr/msp430/lib/libc.a(memcmp.o)
+ .debug_aranges
+                0x000000000000008c       0x14 /usr/msp430/lib/libc.a(strcpy.o)
+ .debug_aranges
+                0x00000000000000a0       0x14 /usr/msp430/lib/libc.a(memcpy.o)
+ .debug_aranges
+                0x00000000000000b4       0x14 /usr/msp430/lib/libc.a(strdup.o)
+ .debug_aranges
+                0x00000000000000c8       0x14 /usr/msp430/lib/libc.a(memset.o)
+ .debug_aranges
+                0x00000000000000dc       0x14 /usr/msp430/lib/libc.a(strlen.o)
+ .debug_aranges
+                0x00000000000000f0       0x14 /usr/msp430/lib/libc.a(strcat.o)
+ .debug_aranges
+                0x0000000000000104       0x14 /usr/msp430/lib/libc.a(printf.o)
+ .debug_aranges
+                0x0000000000000118       0x14 /usr/msp430/lib/libc.a(sprintf.o)
+ .debug_aranges
+                0x000000000000012c       0x14 /usr/msp430/lib/libc.a(vuprintf.o)
+ .debug_aranges
+                0x0000000000000140       0x14 /usr/msp430/lib/libc.a(puts.o)
+ .debug_aranges
+                0x0000000000000154       0x14 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod64.o)
+ .debug_aranges
+                0x0000000000000168       0x14 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__watchdog_support.o)
+ .debug_aranges
+                0x000000000000017c       0x14 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__init_stack.o)
+ .debug_aranges
+                0x0000000000000190       0x14 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_copy_data.o)
+ .debug_aranges
+                0x00000000000001a4       0x14 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_clear_bss.o)
+ .debug_aranges
+                0x00000000000001b8       0x14 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_endless_loop__.o)
+ .debug_aranges
+                0x00000000000001cc       0x14 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_unexpected_.o)
+ .debug_aranges
+                0x00000000000001e0       0x14 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_ctors430.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x1afb
+ *(.debug_info)
+ .debug_info    0x0000000000000000       0xe4 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_mulhi3.o)
+ .debug_info    0x00000000000000e4       0xe4 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod16.o)
+ .debug_info    0x00000000000001c8       0xe4 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_divmod16.o)
+ .debug_info    0x00000000000002ac       0xe4 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod32.o)
+ .debug_info    0x0000000000000390       0xd6 /usr/msp430/lib/libc.a(memchr.o)
+ .debug_info    0x0000000000000466       0xbb /usr/msp430/lib/libc.a(strncmp.o)
+ .debug_info    0x0000000000000521       0xe8 /usr/msp430/lib/libc.a(memcmp.o)
+ .debug_info    0x0000000000000609       0xb6 /usr/msp430/lib/libc.a(strcpy.o)
+ .debug_info    0x00000000000006bf      0x113 /usr/msp430/lib/libc.a(memcpy.o)
+ .debug_info    0x00000000000007d2       0xc7 /usr/msp430/lib/libc.a(strdup.o)
+ .debug_info    0x0000000000000899       0xfe /usr/msp430/lib/libc.a(memset.o)
+ .debug_info    0x0000000000000997       0xb0 /usr/msp430/lib/libc.a(strlen.o)
+ .debug_info    0x0000000000000a47       0xb7 /usr/msp430/lib/libc.a(strcat.o)
+ .debug_info    0x0000000000000afe      0x105 /usr/msp430/lib/libc.a(printf.o)
+ .debug_info    0x0000000000000c03      0x277 /usr/msp430/lib/libc.a(sprintf.o)
+ .debug_info    0x0000000000000e7a      0x565 /usr/msp430/lib/libc.a(vuprintf.o)
+ .debug_info    0x00000000000013df       0x96 /usr/msp430/lib/libc.a(puts.o)
+ .debug_info    0x0000000000001475       0xe4 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod64.o)
+ .debug_info    0x0000000000001559       0xce /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__watchdog_support.o)
+ .debug_info    0x0000000000001627       0xce /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__init_stack.o)
+ .debug_info    0x00000000000016f5       0xce /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_copy_data.o)
+ .debug_info    0x00000000000017c3       0xce /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_clear_bss.o)
+ .debug_info    0x0000000000001891       0xce /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_endless_loop__.o)
+ .debug_info    0x000000000000195f       0xce /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_unexpected_.o)
+ .debug_info    0x0000000000001a2d       0xce /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_ctors430.o)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x0000000000000000      0xa03
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x14 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_mulhi3.o)
+ .debug_abbrev  0x0000000000000014       0x14 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod16.o)
+ .debug_abbrev  0x0000000000000028       0x14 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_divmod16.o)
+ .debug_abbrev  0x000000000000003c       0x14 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod32.o)
+ .debug_abbrev  0x0000000000000050       0xa2 /usr/msp430/lib/libc.a(memchr.o)
+ .debug_abbrev  0x00000000000000f2       0x7c /usr/msp430/lib/libc.a(strncmp.o)
+ .debug_abbrev  0x000000000000016e       0x9b /usr/msp430/lib/libc.a(memcmp.o)
+ .debug_abbrev  0x0000000000000209       0x7e /usr/msp430/lib/libc.a(strcpy.o)
+ .debug_abbrev  0x0000000000000287       0x97 /usr/msp430/lib/libc.a(memcpy.o)
+ .debug_abbrev  0x000000000000031e       0x8b /usr/msp430/lib/libc.a(strdup.o)
+ .debug_abbrev  0x00000000000003a9       0x9c /usr/msp430/lib/libc.a(memset.o)
+ .debug_abbrev  0x0000000000000445       0x7c /usr/msp430/lib/libc.a(strlen.o)
+ .debug_abbrev  0x00000000000004c1       0x7e /usr/msp430/lib/libc.a(strcat.o)
+ .debug_abbrev  0x000000000000053f       0xd0 /usr/msp430/lib/libc.a(printf.o)
+ .debug_abbrev  0x000000000000060f      0x105 /usr/msp430/lib/libc.a(sprintf.o)
+ .debug_abbrev  0x0000000000000714      0x1ef /usr/msp430/lib/libc.a(vuprintf.o)
+ .debug_abbrev  0x0000000000000903       0x60 /usr/msp430/lib/libc.a(puts.o)
+ .debug_abbrev  0x0000000000000963       0x14 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod64.o)
+ .debug_abbrev  0x0000000000000977       0x14 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__watchdog_support.o)
+ .debug_abbrev  0x000000000000098b       0x14 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__init_stack.o)
+ .debug_abbrev  0x000000000000099f       0x14 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_copy_data.o)
+ .debug_abbrev  0x00000000000009b3       0x14 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_clear_bss.o)
+ .debug_abbrev  0x00000000000009c7       0x14 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_endless_loop__.o)
+ .debug_abbrev  0x00000000000009db       0x14 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_unexpected_.o)
+ .debug_abbrev  0x00000000000009ef       0x14 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_ctors430.o)
+
+.debug_line     0x0000000000000000     0x1064
+ *(.debug_line)
+ .debug_line    0x0000000000000000       0xa4 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_mulhi3.o)
+ .debug_line    0x00000000000000a4       0xa7 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod16.o)
+ .debug_line    0x000000000000014b       0xb2 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_divmod16.o)
+ .debug_line    0x00000000000001fd       0xb6 /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod32.o)
+ .debug_line    0x00000000000002b3       0x72 /usr/msp430/lib/libc.a(memchr.o)
+ .debug_line    0x0000000000000325       0x75 /usr/msp430/lib/libc.a(strncmp.o)
+ .debug_line    0x000000000000039a       0x73 /usr/msp430/lib/libc.a(memcmp.o)
+ .debug_line    0x000000000000040d       0x4d /usr/msp430/lib/libc.a(strcpy.o)
+ .debug_line    0x000000000000045a       0xe9 /usr/msp430/lib/libc.a(memcpy.o)
+ .debug_line    0x0000000000000543       0x72 /usr/msp430/lib/libc.a(strdup.o)
+ .debug_line    0x00000000000005b5       0xc8 /usr/msp430/lib/libc.a(memset.o)
+ .debug_line    0x000000000000067d       0x7d /usr/msp430/lib/libc.a(strlen.o)
+ .debug_line    0x00000000000006fa       0x52 /usr/msp430/lib/libc.a(strcat.o)
+ .debug_line    0x000000000000074c       0x72 /usr/msp430/lib/libc.a(printf.o)
+ .debug_line    0x00000000000007be       0x9c /usr/msp430/lib/libc.a(sprintf.o)
+ .debug_line    0x000000000000085a      0x2d2 /usr/msp430/lib/libc.a(vuprintf.o)
+ .debug_line    0x0000000000000b2c       0x4d /usr/msp430/lib/libc.a(puts.o)
+ .debug_line    0x0000000000000b79       0xfc /usr/lib/gcc/msp430/4.6.3/libgcc.a(_udivmod64.o)
+ .debug_line    0x0000000000000c75       0x8f /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__watchdog_support.o)
+ .debug_line    0x0000000000000d04       0x8d /usr/lib/gcc/msp430/4.6.3/libcrt0.a(__init_stack.o)
+ .debug_line    0x0000000000000d91       0x93 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_copy_data.o)
+ .debug_line    0x0000000000000e24       0x93 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_clear_bss.o)
+ .debug_line    0x0000000000000eb7       0x8e /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_endless_loop__.o)
+ .debug_line    0x0000000000000f45       0x8d /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_unexpected_.o)
+ .debug_line    0x0000000000000fd2       0x92 /usr/lib/gcc/msp430/4.6.3/libcrt0.a(_ctors430.o)
+
+.debug_frame    0x0000000000000000      0x2c8
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0x1e /usr/msp430/lib/libc.a(memchr.o)
+ .debug_frame   0x000000000000001e       0x24 /usr/msp430/lib/libc.a(strncmp.o)
+ .debug_frame   0x0000000000000042       0x24 /usr/msp430/lib/libc.a(memcmp.o)
+ .debug_frame   0x0000000000000066       0x1e /usr/msp430/lib/libc.a(strcpy.o)
+ .debug_frame   0x0000000000000084       0x38 /usr/msp430/lib/libc.a(memcpy.o)
+ .debug_frame   0x00000000000000bc       0x2e /usr/msp430/lib/libc.a(strdup.o)
+ .debug_frame   0x00000000000000ea       0x32 /usr/msp430/lib/libc.a(memset.o)
+ .debug_frame   0x000000000000011c       0x28 /usr/msp430/lib/libc.a(strlen.o)
+ .debug_frame   0x0000000000000144       0x1e /usr/msp430/lib/libc.a(strcat.o)
+ .debug_frame   0x0000000000000162       0x2a /usr/msp430/lib/libc.a(printf.o)
+ .debug_frame   0x000000000000018c       0x68 /usr/msp430/lib/libc.a(sprintf.o)
+ .debug_frame   0x00000000000001f4       0xb0 /usr/msp430/lib/libc.a(vuprintf.o)
+ .debug_frame   0x00000000000002a4       0x24 /usr/msp430/lib/libc.a(puts.o)
+
+.debug_str      0x0000000000000000      0x4aa
+ *(.debug_str)
+ .debug_str     0x0000000000000000       0xce /usr/msp430/lib/libc.a(memchr.o)
+                                        0x107 (size before relaxing)
+ .debug_str     0x00000000000000ce       0x1b /usr/msp430/lib/libc.a(strncmp.o)
+                                        0x109 (size before relaxing)
+ .debug_str     0x00000000000000e9       0x19 /usr/msp430/lib/libc.a(memcmp.o)
+                                        0x107 (size before relaxing)
+ .debug_str     0x0000000000000102       0x23 /usr/msp430/lib/libc.a(strcpy.o)
+                                        0x10a (size before relaxing)
+ .debug_str     0x0000000000000125       0x34 /usr/msp430/lib/libc.a(memcpy.o)
+                                        0x122 (size before relaxing)
+ .debug_str     0x0000000000000159       0x1e /usr/msp430/lib/libc.a(strdup.o)
+                                        0x10c (size before relaxing)
+ .debug_str     0x0000000000000177       0x26 /usr/msp430/lib/libc.a(memset.o)
+                                        0x120 (size before relaxing)
+ .debug_str     0x000000000000019d       0x19 /usr/msp430/lib/libc.a(strlen.o)
+                                        0x107 (size before relaxing)
+ .debug_str     0x00000000000001b6       0x20 /usr/msp430/lib/libc.a(strcat.o)
+                                        0x10c (size before relaxing)
+ .debug_str     0x00000000000001d6       0x40 /usr/msp430/lib/libc.a(printf.o)
+                                        0x136 (size before relaxing)
+ .debug_str     0x0000000000000216       0x67 /usr/msp430/lib/libc.a(sprintf.o)
+                                        0x19b (size before relaxing)
+ .debug_str     0x000000000000027d      0x218 /usr/msp430/lib/libc.a(vuprintf.o)
+                                        0x381 (size before relaxing)
+ .debug_str     0x0000000000000495       0x15 /usr/msp430/lib/libc.a(puts.o)
+                                         0xfc (size before relaxing)
+
+.debug_loc      0x0000000000000000      0xcba
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000       0x2b /usr/msp430/lib/libc.a(memchr.o)
+ .debug_loc     0x000000000000002b       0x38 /usr/msp430/lib/libc.a(strncmp.o)
+ .debug_loc     0x0000000000000063       0x5e /usr/msp430/lib/libc.a(memcmp.o)
+ .debug_loc     0x00000000000000c1       0x12 /usr/msp430/lib/libc.a(strcpy.o)
+ .debug_loc     0x00000000000000d3      0x1f0 /usr/msp430/lib/libc.a(memcpy.o)
+ .debug_loc     0x00000000000002c3       0x5a /usr/msp430/lib/libc.a(strdup.o)
+ .debug_loc     0x000000000000031d       0xdb /usr/msp430/lib/libc.a(memset.o)
+ .debug_loc     0x00000000000003f8       0x47 /usr/msp430/lib/libc.a(strlen.o)
+ .debug_loc     0x000000000000043f       0x2d /usr/msp430/lib/libc.a(strcat.o)
+ .debug_loc     0x000000000000046c       0x38 /usr/msp430/lib/libc.a(printf.o)
+ .debug_loc     0x00000000000004a4       0xeb /usr/msp430/lib/libc.a(sprintf.o)
+ .debug_loc     0x000000000000058f      0x705 /usr/msp430/lib/libc.a(vuprintf.o)
+ .debug_loc     0x0000000000000c94       0x26 /usr/msp430/lib/libc.a(puts.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000       0x18
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x18 /usr/msp430/lib/libc.a(vuprintf.o)
+                0x0000000000004200                PROVIDE (__stack, (ORIGIN (ram) + 0x4000))
+                0x000000000000d488                PROVIDE (__data_start_rom, _etext)
+                0x000000000000d4e0                PROVIDE (__data_end_rom, (_etext + SIZEOF (.data)))
+OUTPUT(/home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/reactive.elf elf32-msp430)
+
+.note.GNU-stack
+                0x0000000000000000        0x0
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/startup.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/pmodbtn.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/connection.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/static-symtab.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/command_handlers.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/periodic_event.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/led_driver.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/main.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/enclave_utils.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/networking.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/event_manager.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/event_generator.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/pmodled.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/button_driver.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/led_insecure.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/uart_reader.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/application_reactive/utils.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/auto_init/auto_init.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/board/board_init.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/board/uart.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/panic.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/bitarithm.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/sched.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/atomic_c11.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/mutex.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/lifo.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/cond.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/rmutex.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/ringbuffer.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/clist.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/priority_queue.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/kernel_init.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/atomic_sync.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/thread.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/assert.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/core/msg.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/irq.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/msp430_stdio.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/msp430-main.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/malloc.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/sancus_helpers.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/cpu.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/mspgcc-supplement.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/cpu/startup.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/oneway_malloc/oneway-malloc.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/stdio_uart/stdio_uart.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/gpio_util.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/init.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/flashpage.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/pm.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/i2c.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/cpuid.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/spi.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/eeprom.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/rtc.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/gianluca/authexec/sancus-riot/sancus-testbed/reactive/bin/sancus-msp430/periph_common/timer.o

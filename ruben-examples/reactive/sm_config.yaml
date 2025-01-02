@@ -1,0 +1,4 @@
+led_driver:
+    - num_connections: 2
+button_driver:
+    - num_connections: 2
