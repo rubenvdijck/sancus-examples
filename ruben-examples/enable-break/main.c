@@ -10,29 +10,9 @@ void exit_success(void);
 
 DECLARE_SM(hello, 0x1234);
 
-void SM_ENTRY(hello) hello_greet(void)
+int SM_ENTRY(hello) hello_greet(void)
 {
-    ASSERT(sancus_get_caller_id() == SM_ID_UNPROTECTED);
-    ASSERT(sancus_get_self_id() == 1);
-    pr_info2("Hi from SM with ID %d, called by %d\n",
-        sancus_get_self_id(), sancus_get_caller_id());
-}
-
-void SM_ENTRY(hello) hello_disable(void)
-{
-    ASSERT(sancus_get_caller_id() == SM_ID_UNPROTECTED);
-    ASSERT(sancus_get_self_id() == 1);
-    sancus_disable(exit_success);
-}
-
-DECLARE_SM(test, 0x1234);
-
-void SM_ENTRY(test) test_greet(void)
-{
-    ASSERT(sancus_get_caller_id() == SM_ID_UNPROTECTED);
-    ASSERT(sancus_get_self_id() == 1);
-    pr_info2("Hi from SM with ID %d, called by %d\n",
-        sancus_get_self_id(), sancus_get_caller_id());
+    return 750;
 }
 
 /* ======== UNTRUSTED CONTEXT ======== */
@@ -45,24 +25,55 @@ int main()
     timer_tsc_start();
     tsc1 = timer_tsc_end();
     pr_info1("tsc overhead: %u\n", tsc1);
+
+    // char text_section[hello.public_start - hello.public_end+1];
+    // int j = 0;
+    // for( void* i = hello.public_start; i <= hello.public_end; i++ ){
+    //     text_section[j] = (char)*i;
+    //     j++;
+    // }
+    
+    
+    
+    // timer_tsc_start();
+    // dump_buf((uint8_t*)SM_GET_WRAP_TAG(test), 16, "  Tag");
+    // sancus_enable_wrapped(&hello, SM_GET_WRAP_NONCE(hello), SM_GET_WRAP_TAG(test));
+    // tsc2 = timer_tsc_end();
+    // pr_info2("wrong nonce Time to enable: %u, tsc overhead: %u\n", tsc2, tsc1);
+    
     unsigned no = SM_GET_WRAP_NONCE(hello);
     char* tag = SM_GET_WRAP_TAG(hello);
+    char guess_tag[SANCUS_TAG_SIZE] = {0};
     pr_info1("Nonce: %u\n", no);
     dump_buf((uint8_t*)tag, 16, "  Tag");
-
-
-
+    guess_tag[0] = tag[0];
+    guess_tag[1] = tag[1];
+    guess_tag[2] = tag[2];
+    guess_tag[3] = tag[3];
+    
     timer_tsc_start();
-    dump_buf((uint8_t*)SM_GET_WRAP_TAG(test), 16, "  Tag");
-    sancus_enable_wrapped(&hello, 0, SM_GET_WRAP_TAG(test));
+    sancus_enable_wrapped(&hello, no, guess_tag);
     tsc2 = timer_tsc_end();
-    pr_info2("Time to enable: %u, tsc overhead: %u\n", tsc2, tsc1);
-
+    pr_info3("Time to verify if only %d/8 bytes correct: %u, tsc overhead: %u\n", 4, tsc2, tsc1);
+    pr_info("testing\n");
+    int test = hello_greet();
+    pr_info1("%d\n", test);
+    
+    pr_info2("ps: %p , pe : %p\n", hello.public_start, hello.public_end);
+    sancus_wrap_with_key(NULL, &no, sizeof(no), hello.public_start, hello.public_end - hello.public_start, hello.public_start, SM_GET_WRAP_TAG(hello));
+    
     timer_tsc_start();
     sancus_enable_wrapped(&hello, no, tag);
     tsc2 = timer_tsc_end();
-    pr_info2("Time to enable: %u, tsc overhead: %u\n", tsc2, tsc1);
+    pr_info3("Time to verify if only %d/8 bytes correct: %u, tsc overhead: %u\n", 8, tsc2, tsc1);
+    pr_info("testing\n");
+    test = hello_greet();
+    pr_info1("%d\n", test);
 
+
+    // for( int i = 0; i < 8; i++ ){
+    // }
+    
     // tsc_t data = 0x5678;
     // CipherData correct_cipher = { 0 };
     // hello_wrap(&data, no, &correct_cipher);
@@ -80,15 +91,6 @@ int main()
     // dump_buf((uint8_t*)cipher.cipher, 8, "  Copy correct cipher");
 
 
-    // for( int i = 0; i < 8; i++ ){
-    //     cipher.tag[2*i] = correct_tag[2*i];
-    //     cipher.tag[2*i+1] = correct_tag[2*i+1];
-        
-    //     timer_tsc_start();
-    //     super_secure_ecall(no, &cipher);
-    //     tsc2 = timer_tsc_end();
-    //     pr_info3("Time to verify if only %d/8 bytes correct: %u, tsc overhead: %u\n", i+1, tsc2, tsc1);
-    // }
 
     // ======== WITHOUT INFO ==========
 
