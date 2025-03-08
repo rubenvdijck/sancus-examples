@@ -24,14 +24,14 @@ int main()
     uint tsc1, tsc2;
     timer_tsc_start();
     tsc1 = timer_tsc_end();
-    pr_info1("tsc overhead: %u\n", tsc1);
 
-    // char text_section[hello.public_start - hello.public_end+1];
-    // int j = 0;
-    // for( void* i = hello.public_start; i <= hello.public_end; i++ ){
-    //     text_section[j] = (char)*i;
-    //     j++;
-    // }
+    char code[394] = {0};
+    void* p = hello.public_start;
+    for ( int i = 0; i < 394; i++ ){
+        code[i] = *(char*)p;
+        p++;
+    }
+    // dump_buf(code, 394, "  Code");
     
     
     
@@ -44,31 +44,33 @@ int main()
     unsigned no = SM_GET_WRAP_NONCE(hello);
     char* tag = SM_GET_WRAP_TAG(hello);
     char guess_tag[SANCUS_TAG_SIZE] = {0};
+    int test;
     pr_info1("Nonce: %u\n", no);
     dump_buf((uint8_t*)tag, 16, "  Tag");
-    guess_tag[0] = tag[0];
-    guess_tag[1] = tag[1];
-    guess_tag[2] = tag[2];
-    guess_tag[3] = tag[3];
+    for( int i = 0; i < 8; i++ ){
+        guess_tag[2*i] = tag[2*i];
+        guess_tag[2*i+1] = tag[2*i+1];
+        
+        timer_tsc_start();
+        sancus_enable_wrapped(&hello, no, guess_tag);
+        tsc2 = timer_tsc_end();
+        pr_info3("Time to verify if only %d/16 bytes correct: %u, tsc overhead: %u\n", i*2+2, tsc2, tsc1);
+        test = hello_greet();
+        pr_info1("%d\n", test);
+        
+        p = hello.public_start;
+        for ( int i = 0; i < 394; i++ ){
+            *(char*)p = code[i];
+            p++;
+        }
+    }
+
     
-    timer_tsc_start();
-    sancus_enable_wrapped(&hello, no, guess_tag);
-    tsc2 = timer_tsc_end();
-    pr_info3("Time to verify if only %d/8 bytes correct: %u, tsc overhead: %u\n", 4, tsc2, tsc1);
-    pr_info("testing\n");
-    int test = hello_greet();
-    pr_info1("%d\n", test);
-    
-    pr_info2("ps: %p , pe : %p\n", hello.public_start, hello.public_end);
-    sancus_wrap_with_key(NULL, &no, sizeof(no), hello.public_start, hello.public_end - hello.public_start, hello.public_start, SM_GET_WRAP_TAG(hello));
-    
-    timer_tsc_start();
-    sancus_enable_wrapped(&hello, no, tag);
-    tsc2 = timer_tsc_end();
-    pr_info3("Time to verify if only %d/8 bytes correct: %u, tsc overhead: %u\n", 8, tsc2, tsc1);
-    pr_info("testing\n");
-    test = hello_greet();
-    pr_info1("%d\n", test);
+    // timer_tsc_start();
+    // sancus_enable_wrapped(&hello, no, tag);
+    // tsc2 = timer_tsc_end();
+    // pr_info3("Time to verify if only %d/8 bytes correct: %u, tsc overhead: %u\n", 8, tsc2, tsc1);
+    // pr_info("testing\n");
 
 
     // for( int i = 0; i < 8; i++ ){

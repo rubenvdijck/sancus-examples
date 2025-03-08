@@ -18,6 +18,15 @@ int main()
     tsc1 = timer_tsc_end();
     pr_info1("tsc overhead: %u\n", tsc1);
     
+    char code[28] = {0};
+    pr_info3("foo start: %p, foo end: %p, length: %d\n", foo.public_start, foo.public_end, foo.public_end - foo.public_start + 1);
+    void* p = foo.public_start;
+    for ( int i = 0; i < 28; i++ ){
+        code[i] = *(char*)p;
+        p++;
+    }
+    dump_buf(code, 28, "  Code");
+    
     
     
     // timer_tsc_start();
@@ -36,10 +45,19 @@ int main()
     guess_tag[2] = tag[2];
     guess_tag[3] = tag[3];
     
+    dump_buf(foo.public_start, 28, "  Data");
     timer_tsc_start();
     sancus_enable_wrapped(&foo, no, guess_tag);
     tsc2 = timer_tsc_end();
     pr_info3("Time to verify if only %d/8 bytes correct: %u, tsc overhead: %u\n", 4, tsc2, tsc1);
+    dump_buf(foo.public_start, 28, "  Data after enable");
+    
+    p = foo.public_start;
+    for ( int i = 0; i < 28; i++ ){
+        *(char*)p = code[i];
+        p++;
+    }
+    dump_buf(foo.public_start, 28, "  Data after enable and rewrite");
     
     timer_tsc_start();
     sancus_enable_wrapped(&foo, no, tag);
